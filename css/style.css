@@ -1,142 +1,30 @@
 * {
   padding:0;
   margin:0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', serif;
+  font-weight: 400;
 }
 
-.clearfix {
-  overflow: auto;
-}
-
-.education-entry, .work-entry, .project-entry {
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
-h1 {
-  font-size: 40px;
-  color: #F5A623;
-  line-height: 48px;
-  display: inline;
-}
-
-h2 {
-  font-weight: bold;
-  font-size: 24px;
-  color: #999999;
-  line-height: 29px;
-  padding: 10px;
-}
-
-h3 {
-  font-style: italic;
-  font-size: 20px;
-  color: #000000;
-  line-height: 22px;
-}
-
-h4 {
-  font-weight: bold;
+main {
+  background: #7c7067;
   font-size: 14px;
-  color: #4A4A4A;
-  line-height: 17px;
-}
-
-h2, h3, h4, h5 {
-  padding:10px;
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
-
-.date-text {
-  font-style: italic;
-  font-size: 14px;
-  color: #999999;
-  line-height: 16px;
-  float: left;
-}
-
-.location-text {
-  font-style: italic;
-  font-size: 14px;
-  color: #999999;
-  line-height: 16px;
-  float: right;
-
-}
-
-p {
-  font-size: 14px;
-  color: #333333;
+  color: #fff;
   line-height: 21px;
 }
 
-a {
-  color: #1199C3;
-  text-decoration: none;
-  margin-top: 10px;
-  display: block;
+header, footer {
+  background: #fff url(../images/pw_maze_black.png);
 }
 
-.welcome-message {
-  font-style: italic;
-  font-size: 18px;
-  color: #F3F3F3;
-  line-height: 28px;
+.contact-info {
+  color: #fff;
+  font-weight: normal;
+  margin: 1rem 0;
+  padding: 0;
 }
 
-#skillsH3 {
-  color: #F5AE23;
-  display: none;
-}
-
-.orange {
-  background-color: #F5AE23;
-}
-
-.orange-text {
-  color: #F5AE23;
-}
-
-.white-text {
-  font-weight: bold;
-  color: #FFFFFF;
-}
-
-.gray {
-  background-color: #F3F3F3;
-  padding-bottom: 10px;
-  clear:both;
-}
-
-.dark-gray {
-  background-color: #4A4A4A;
-}
-
-/* TODO: Replace with image later */
-#header {
-  background-color: #484848;
-}
-
-.flex-box {
-  display: -webkit-flex;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 10px;
-}
-
-.center-content {
-  padding-top: 2.5%;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-bottom: 2.5%
-}
-
-ul {
-  list-style-type: none;
+.contact-info span {
+  padding: 5px;
 }
 
 .biopic {
@@ -148,6 +36,149 @@ ul {
 
 img {
   padding: 10px;
+}
+
+.welcome-message {
+  font-style: italic;
+  color: #f3f3f3;
+}
+
+.skill {
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+section, header {
+  padding: 5%;
+}
+
+.work-experience {
+  clear:both;
+}
+
+.projects {
+ background: #ccc url(../images/footer_lodyas.png);
+}
+
+.education {
+  background: #1d1b1a;
+  clear:both;
+}
+
+.map {
+  display: block;
+  height: 100%;
+  margin: 1rem 0;
+}
+
+.map-wrap {
+  height: 400px;
+}
+
+footer {
+  text-align: center;
+  /*margin-top: 5%;*/
+  padding-bottom: 1px;
+}
+
+.footer-title {
+  background-color: #b8a79a;
+}
+
+footer .contact-info {
+  padding: 0 5%;
+}
+
+/* headers */
+
+h1 {
+  font: 40px/48px 'Roboto Slab';
+  color: #9b948f;
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+h2 {
+  font-weight: bold;
+  font: 24px/29px 'Roboto Slab';
+  color: #fff;
+  padding: 10px;
+  border-bottom: 1px dashed #ccc;
+}
+
+.skills-title {
+  color: #9b948f;
+  display: none;
+}
+
+h3 {
+  font-style: italic;
+  font: 20px/22px 'Roboto Slab';
+  color: #000000;
+}
+
+h4 {
+  font-weight: 700;
+  font: 14px/17px 'Roboto Slab';
+  color: #4A4A4A;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  padding:10px 0;
+}
+
+/* links */
+a {
+  color: #11c38d;
+  text-decoration: none;
+  margin-top: 10px;
+  display: block;
+}
+
+/* other typography stuff */
+
+.highlight {
+  color: #9b948f;
+}
+
+.date-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #a3a3a3;
+  line-height: 16px;
+  float: left;
+}
+
+.location-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #a3a3a3;
+  line-height: 16px;
+  float: right;
+
+}
+
+.dark-gray {
+  background-color: #4A4A4A;
+}
+
+.flex-box {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.clearfix {
+  overflow: auto;
 }
 
 /* Bar chart stuff */
@@ -162,18 +193,12 @@ img {
   display: inline-block;
 }
 
-span {
-  padding: 5px;
-}
 
-#letsConnect {
-  text-align: center;
-}
 
 @media only screen and (max-width: 1024px) {
-  #letsConnect {
+  /*footer {
     margin-top: 5%;
-  }
+  }*/
 }
 
 @media only screen and (max-width:900px) {
@@ -183,9 +208,9 @@ span {
 }
 
 @media only screen and (max-width: 750px) {
-  #letsConnect {
+  /*footer {
     margin-top: 10%;
-  }
+  }*/
   .biopic {
     width: 150px;
   }
@@ -194,21 +219,8 @@ span {
   }
 }
 
-#map {
-  display: block;
-  height: 100%;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-#mapDiv {
-  height: 400px;
-  width: 100%;
-  padding-bottom: 5%;
-}
-
 @media only screen and (min-width: 750px) {
-  #skillsH3,
+  header h3,
   .biopic {
     display: block;
   }
